@@ -1,0 +1,66 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+credentials.*
+
+# Local datasets (keep large/private data out of Git)
+datasets/
+data/
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# Generated results, images, metrics, and experiment outputs
+results/
+outputs/
+runs/
+logs/
+
+# Model checkpoints and exported weights
+saved_models/
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.keras
+
+# Notebooks: ignore autosaves/checkpoints, not notebooks themselves
+.ipynb_checkpoints/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
